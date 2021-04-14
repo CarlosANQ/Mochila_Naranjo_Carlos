@@ -1,0 +1,68 @@
+/*  Para este ejercicio contamos con una pequeña estructura ya creada en el index.html. Esta está formada por un <header>, una <section> y por último un <footer>. ¡Nuestro trabajo será estilizar el sitio!
+Estas son las características que queremos que tenga cada uno de esos elementos: */
+
+/* Para el <header>:
+Color de fondo "lightseagreen"
+Tipografía blanca
+Tamaño de fuente: 28px
+Un borde inferior sólido de 3px de color indigo
+Padding de 22px
+Un margen de 15px abajo, para separar el header de la sección principal
+Texto centrado
+No olvidar el box sizing */
+header {
+    background-color: lightseagreen;
+    color: white;
+    font-size: 28px;
+    border-bottom: solid 3px indigo;
+    padding: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+/* Para la <section>:
+Ancho del 50% de su contenedor
+Margen a la izquierda del 25%
+Color de fondo "gainsboro"
+Margen de 15px abajo, para separarlo del footer
+Padding de 12px a la izquierda
+Padding de 30px arriba y abajo
+Borde negro rayado (dashed) de 1px
+Probemos agregar la regla border-radius:5px para evidenciar qué hace
+Texto centrado
+No olvidar el box sizing */
+section {
+    width: 50%;
+    margin-left: 25%;
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    padding-left: 12px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: dashed 1px;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+/* Para el <footer>:
+Color de fondo "rebeccapurple"
+Tipografía blanca
+Un borde superior sólido de 1 px de color "lightseagreen"
+Padding de 12px
+Un alto fijo de 40px
+Texto centrado
+No olvidar el box sizing
+Es un ejercicio algo largo, pero vale la pena ver el resultado al que se puede llegar combinando reglas de CSS.
+ */
+
+ footer{
+     background-color: rebeccapurple;
+     color: white;
+     border-top: solid 1px lightseagreen ;
+     padding: 12px;
+     height: 40px;
+     text-align: center;
+     box-sizing: border-box;
+ }

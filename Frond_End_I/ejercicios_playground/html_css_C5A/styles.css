@@ -1,0 +1,60 @@
+/*Vamos a modificar el estilo de una estructura HTML ya definida usando código CSS. Debemos escribir, en el archivo style.css, un selector que afecte a TODAS las etiquetas <p> con la regla color:red.*/
+
+/*selector de etiqueta*/
+p {
+    color: red;
+}
+
+/*En este caso, vamos a crear tres selectores en los cuales deberemos escribir las reglas ya definidas:
+Un selector que afecte a todas las etiquetas <h3> con la regla color:blue
+Un selector que afecte a aquellas etiquetas con clase negrita con la regla font-weight:bold
+Un selector que afecte a aquella etiqueta con id gigante con la regla font-size:40px*/
+/*SELECTOR DE ETIQUETA*/
+h3 {
+    color: blue;
+}
+
+/* SELECTOR DE CLASE*/
+.negrita {
+    font-weight: bold;
+}
+
+/* SELECTOR DE ID*/
+#gigante {
+    font-size: 40px;
+}
+
+/*Nuestro trabajo será utilizar los atributos class y id para que esas reglas afecten a las etiquetas HTML y lograr:
+que el encabezado principal sea dorado.
+que los encabezados que contienen nombres de productos estén en mayúscula.
+que el texto "¡Contactanos vía whatsapp!" aparezca con fondo verde y letra blanca.*/
+.destacado {
+    color: gold;
+}
+
+.en-mayuscula {
+    text-transform: uppercase;
+}
+
+#whatsapp {
+    background-color: green;
+    color: white;
+}
+
+/*Nuestro trabajo será agregarle las reglas necesarias al selector que viene dado en el archivo style.css para que el texto tenga las siguientes características:
+Tipografía Arial
+Tamaño de letra: 20px
+Negrita
+Cursiva
+Subrayado
+Alineado al centro*/
+.fuente {
+    font-family: Arial;/*definiendo familias tipograficas, usamos varias porque aveces los usuarios no tienen instaladas las fuentes entonces cargan varias*/
+    font-size: 20px;
+    font-weight: bold; /*grosor de la fuente*/
+    font-style: italic;/*estilos normal,cursiva(italic),oblique*/
+    text-decoration: underline;
+    text-align: center;
+    color: blue;
+}
+

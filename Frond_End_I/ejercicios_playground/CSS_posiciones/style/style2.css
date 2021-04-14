@@ -1,0 +1,10 @@
+/*Para eso debemos ubicar al <ul> con clase "nav-bar" de forma fija a 5px del inicio superior del body y asignarle un width del 100%. 
+hay que maquetiar la pagina parrafos centrados
+barra navegadora
+la lista tiene que esta horizontal */
+.nav-bar {
+    width: 100%;
+    position: fixed;
+    top: 5px;;
+  
+}

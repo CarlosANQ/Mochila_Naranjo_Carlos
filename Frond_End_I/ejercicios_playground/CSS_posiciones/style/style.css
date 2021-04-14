@@ -1,0 +1,37 @@
+.primero {
+    background-color: yellowgreen;
+    width: 10%;
+    padding: 15px;
+    border: solid 2px black;
+    text-align: center;
+    position: relative;
+    left: 20px; 
+    top: 30px;
+  
+  }
+
+  .segundo {
+    position: absolute;  
+    right: 30px;
+    bottom: 20px;    
+  }
+
+/* EJERCICIO UBICAR EL GORRO EN EL GATO */
+.contenedor {
+    position: relative;
+}
+
+.gorrito {
+    width: 120px;
+    position: absolute;
+    left: 70px;
+
+}
+
+.gato {
+    position: relative;
+    top: 60px;    
+
+}
+
+

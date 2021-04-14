@@ -1,0 +1,20 @@
+body {
+    background-image: url('../img/Computacion-cuantica.jpg');
+
+}
+h1 {
+    background-color: rgba(255, 128, 0, 0.8) ;
+    background-size: cover;
+    color: #f4e033;
+    text-align: center;
+    
+}
+
+p {
+    background-color: rgba(44, 243, 244, 0.8);
+}
+
+h2 {
+    background-color: rgba(44, 243, 244, 0.8); ;
+}
+
