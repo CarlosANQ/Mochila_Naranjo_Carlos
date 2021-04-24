@@ -7,10 +7,14 @@ SELECT nombre FROM generos ORDER BY nombre ASC;
 SELECT id, primer_nombre, pais FROM clientes ORDER BY pais DESC;
 SELECT primer_nombre FROM clientes ORDER BY pais DESC, ciudad;
 SELECT * FROM canciones;
-SELECT nombre, milisegundos, id_album FROM canciones 
-WHERE milisegundos=( SELECT MAX(milisegundos) FROM canciones);
+SELECT nombre, milisegundos, id_album FROM canciones WHERE milisegundos=( SELECT MAX(milisegundos) FROM canciones);
 SELECT nombre, milisegundos, id_album FROM canciones order by milisegundos DESC LIMIT 4 ;
 SELECT nombre, compositor FROM canciones ORDER BY nombre ASC LIMIT 6 OFFSET 5;
+select sum(total) as sumafactura, id_cliente from facturas group by id_cliente having sumafactura>45
+
+
+
+
 
 
 
